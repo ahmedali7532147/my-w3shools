@@ -230,6 +230,13 @@ header .logo2{
     color: white;
     background-color: #008453;
 }
+@media screen and (max-width:768px) {
+    .container-log-in .sign {
+        display: none;
+    }
+}
+
+
 
                         /*navigation bar*/
 
