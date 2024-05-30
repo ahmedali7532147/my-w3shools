@@ -1,3 +1,4 @@
+/*بسم الله*/
 * {
     box-sizing: border-box;
     border: 0;
@@ -91,15 +92,17 @@ header .logo2{
 @media screen and (max-width:800px) {
     .left-section {
         display: none;
-        
     }
     .left-section a {
         color: white;
     }
-    .left-section .logo {
+    .left-section 
+    .logo {
         display: none !important;
     }
-    header .logo2, header .logo2 img {
+    header 
+    .logo2, 
+    header .logo2 img {
         display: inline-block;
         width: 50px;
         height: 100%;
@@ -111,9 +114,8 @@ header .logo2{
     .menu-header1 {
         display: block;
         position: relative;
-        left: 45px;
+        left: 0px;
     }
-
     .menu-header:hover .left-section {
         display: block;
         background-color: #333;
@@ -122,16 +124,8 @@ header .logo2{
         float: left;
         width: 100%;
         height: auto;
-    }
-
-    
+    }   
 }
-@media screen and (max-width:340px) {
-    .header-div .logo2 {
-        display: none;
-    }
-}
-
 
 
 
@@ -175,7 +169,7 @@ header .logo2{
     }
     .searsh .icon2 {
         padding: 5px;
-        margin-left:20px;
+        margin-left:0px;
         width: 30px;
         height: 30px;
         border:1px solid;
@@ -289,9 +283,7 @@ header .logo2{
                     
 
 
-.page-count {
-    
-}
+
 
 .page-count .sec1-cont {
     margin: 58px 0 0  ; 
@@ -344,6 +336,18 @@ header .logo2{
 .page-count .sec1-cont .searsh .icon:hover {
     background-color: #008453;
 }
+@media screen and (max-width:768px) {
+    .page-count .sec1-cont .searsh .btn {
+        width: 150px;
+    }
+    .page-count .sec1-cont .searsh .icon {
+        margin-left: 160px;
+        border-radius: 30px;
+        width: 50px;
+    }
+}
+
+
 
 
 
@@ -419,7 +423,9 @@ header .logo2{
 }
 
 
+
                 /*larg box*/
+
 
 
 .page-count .larg-boxs {
@@ -460,7 +466,7 @@ header .logo2{
 
 .page-count .smal {
     background-color: #282A35;
-    padding:10px 0 30px 0;
+    padding: 10px 0 30px 0;
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
@@ -493,7 +499,7 @@ header .logo2{
     align-content: center;
     justify-content: space-evenly;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .smal-icon {
         display: grid;
         grid-template-columns: auto auto;
@@ -502,7 +508,11 @@ header .logo2{
         width: 100%;
     }
 }
-
+@media screen and (max-width: 500px) {
+    .smal-icon {
+        grid-template-columns: auto ;
+    }
+}
 .smal-icon .w3-col {
     max-width: 100%;
     max-height: 100px;
@@ -517,6 +527,8 @@ header .logo2{
     color: white;
 }
 
+
+        /*section-code edite*/
 
 
 .code-edit {
@@ -565,7 +577,8 @@ header .logo2{
 .cont-learn .a-link1 {
     display: block; 
     background-color: #04AA6D; 
-    width: 450px;padding: 10px;
+    width: 450px;
+    padding: 10px;
     border-radius: 20px;
     margin-top: 30px; 
     text-decoration: none;
@@ -574,6 +587,18 @@ header .logo2{
     font-size: 20px; 
     margin: 30px 0;
 }
+@media screen and (max-width:650px ) {
+    .code-edit .a-link1, 
+    .my-learning .a-link1,
+    .cont-learn .a-link1 {
+        width: auto;
+    }
+}
+
+
+        /*section my learning*/
+
+
 .my-learning {
     background-color: #D9EEE1;
     display: flex;
@@ -609,6 +634,11 @@ header .logo2{
     align-items: center;
 
 }
+
+
+            /*ex-qz section*/
+
+
 .ex-qz {
     background-color: #282A35;
     display: flex;
@@ -633,6 +663,20 @@ header .logo2{
     height: ;
     margin: 20px;
 }
+@media screen and (max-width:768px) {
+    .ex-qz div a {
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+
+
+            /*cap section*/
+
+
+
+
 .sec-cap {
     background-color: #282A35;
     display: flex;
@@ -675,3 +719,9 @@ footer .div-foot .footer-nav a {
     color: #FFF4A3;
     font-size: 30px;
 }
+@media screen and (max-width:768px) {
+    footer .div-foot .footer-nav {
+        display: none;
+    }
+}
+/*الحمد لله*/
