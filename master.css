@@ -278,11 +278,6 @@ header .logo2{
     background-color: #d6d6d3;
     outline: 5px solid #d6d6d3;
 }
-@media screen and (max-width:350px) {
-    .icon-mod, .container-log-in .sign, .logo, .logo img {
-        display: none;
-    }
-}
 
 
 
