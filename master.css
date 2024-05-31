@@ -316,6 +316,7 @@ header .logo2{
     width: 300px;
     padding-left: 20px;
     border-radius: 16px;
+    outline: none;
     text-transform:lowercase;
 }
 .page-count .sec1-cont .searsh .icon {
